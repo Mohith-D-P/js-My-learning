@@ -45,3 +45,25 @@ console.log('take rain coat');
 else{
     console.log('raincoat not necessary');
 }
+
+// checking whether a year is a leap year or not ??
+
+var year=2021;
+
+if(year%4===0)
+{
+    if(year % 100===0)
+    {
+        if(year%400===0)
+        {
+            console.log("year "+year+" is a leap year ");
+        }
+        else{
+            console.log("year "+year+" is not leap year ");
+        }
+    }else{
+        console.log("year "+year+" is a leap year ");
+    }
+}else{
+    console.log("year "+year+" is not a leap year ");
+}
