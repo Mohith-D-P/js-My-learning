@@ -76,7 +76,56 @@ if(year%4===0)
 // tables of number
 
 var numb=13;
+
+
 for(var num=1;num<=10;num++)
 {
     console.log(numb+"*"+num+"="+numb*num);
 }
+
+
+
+
+//for each loop
+
+/** var myFriends=['anand','swetha','girish','prerith'];
+myFriends.forEach(function(element,index,array)
+{
+    console.log(element+" index:"+index+" "+array)
+});
+**/
+
+
+// add december at the end of the array
+/**
+
+const months=['january','feb','march','april','june'];
+const newMonth=months.splice(months.length,0,"december");
+console.log(months);
+console.log(newMonth);
+
+ * 
+ */
+
+
+//updating  using splice 
+// with the help of indexOf()
+
+/**
+ 
+const months=['january','feb','march','april','june'];
+
+const indexOfMonth=months.indexOf("april");
+
+if(indexOfMonth!== -1)
+{
+    const updateMonth=months.splice(indexOfMonth,1,"august");
+    console.log(months);
+}
+else
+{
+    console.log("no such data found");
+}
+
+* 
+ */
