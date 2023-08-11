@@ -67,3 +67,16 @@ if(year%4===0)
 }else{
     console.log("year "+year+" is not a leap year ");
 }
+
+//Ternary Operator
+
+ var age=17;
+ console.log((age>=18)? "you can vote":"you cannot vote");
+
+// tables of number
+
+var numb=13;
+for(var num=1;num<=10;num++)
+{
+    console.log(numb+"*"+num+"="+numb*num);
+}
